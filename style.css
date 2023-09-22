@@ -1,0 +1,195 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+.container {
+    max-width: 1054px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(70,83,100, 0.9);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 1054px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-pic {
+    width: 80px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 82px;
+}
+
+.header_item:last-child{
+    margin-right: 0;
+}
+
+.header_link, .contacts-link {
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+.header_link:hover {
+    opacity: .75;
+}
+
+.contacts-link:hover {
+    opacity: .75;
+}
+
+.intro{
+    min-height: 400px;
+    background: url(./img/fon1.jpg) no-repeat center ;
+    background-size: cover;
+    padding-top: 180px;
+    margin-bottom: 50px;
+}
+
+.intro_bg{
+    background: rgba(255, 255, 255, .5);
+    max-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; 
+}
+
+.intro-title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.intro-subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.about-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.about_card {
+    width: 340px;
+    border: solid rgba(70,83,100);
+    border-radius: 10px;
+}
+
+.about_card-pic{
+    margin: 15px auto;
+    margin-left: 115px;
+}
+
+.image {
+    width: 100px;
+}
+
+.about_card-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+.about_card-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.photo {
+    width: 250px;
+    margin: 10px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.card-image {
+    border: solid 2px rgba(70,83,100);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.img-desc {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.chat-wrapper {
+    background-image: url(./img/chat_font.jpg);
+    background-size: cover;
+    height: 480px;
+}
+
+input {
+    padding: 5px 10px;
+    border: solid 2px rgba(70,83,100);
+    border-radius: 10px;
+    margin: 40px 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border: solid 2px rgba(70,83,100);
+    border-radius: 10px;
+    background-color: rgba(70,83,100);
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    border: solid 2px rgba(70,83,100);
+    background-color: #fff;
+    color: rgba(70,83,100);
+}
+
+.messages {
+    margin: 20px 0;
+}
